@@ -44,11 +44,12 @@
             <div class="container">
                 <div class="row">
                     <div class="header__wrapper">
-                        <h1 class="header__title">Browse Our Movies</h1>
-                        <form class="header__search-bar">
-                            <input type="text" class="header__search-bar--input" placeholder="Search By Movie Title" onchange="renderMovies(event)">
-                            <button class="header__button">Search</button>
-                        </form>
+                        <h1 class="header__description">America's most awarded movie subscription platform</h1>
+                        <h1 class="header__title">Browse Our SwiftMovies Collection:</h1>
+                        <div class="header__search-bar">
+                            <input type="text" class="header__search-bar--input" placeholder="Search By Movie Title" onkeyup="search(event)">
+                            <button class="header__button" onclick="buttonSearch(event)">Search</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -59,8 +60,9 @@
         <section id="movies">
             <div class="container">
                 <div class="row">
+                    <h1 class="search__results">Search Results:</h1>
                     <div class="movies__wrapper">
-                        
+
                     </div>
                 </div>
             </div>
