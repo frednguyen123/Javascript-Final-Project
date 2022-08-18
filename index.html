@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftMovies</title>
+    <link rel="stylesheet" href="styles.css" class="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="nav__wrapper">
+                        <div class="nav__logo">
+                            <h1 class="nav__logo--name">SwiftMovies</h1>
+                        </div>
+                        <ul class="nav__links">
+                            <li>
+                                <a href="#" class="
+                                nav__link 
+                                nav__link--primary 
+                                nav__link--hover">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="
+                                nav__link 
+                                nav__link--primary 
+                                nav__link--hover">Find a movie</a>
+                            </li>
+                            <li>
+                                <a href="#" class="
+                                nav__link 
+                                nav__link--button">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header__wrapper">
+                        <h1 class="header__title">Browse Our Movies</h1>
+                        <form class="header__search-bar">
+                            <input type="text" class="header__search-bar--input" placeholder="Search By Movie Title" onchange="renderMovies(event)">
+                            <button class="header__button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="movies">
+            <div class="container">
+                <div class="row">
+                    <div class="movies__wrapper">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
